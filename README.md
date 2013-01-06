@@ -9,7 +9,7 @@
         
 Author: Riccardo B. <riccardo@cryptolab.net>
 
-License: Gnu GPL
+License: Gnu GPL v3
 
 Homepage: http://forkforge.net/proj.13
 
