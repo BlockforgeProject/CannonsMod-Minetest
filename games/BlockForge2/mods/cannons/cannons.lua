@@ -36,3 +36,5 @@ function shot(dir,pos,entity,gravity,velocity)
     obj:setvelocity({x=dir.x*velocity, y=dir.y*velocity, z=dir.z*velocity})
     obj:setacceleration({x=dir.x*-3, y=-gravity, z=dir.z*-3})
 end
+
+

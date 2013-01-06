@@ -118,7 +118,7 @@ end
 
 function destroy(pos) -- Based on https://github.com/PilzAdam/TNT
 	if math.random(1,5) <= 4 then
-		minetest.env:add_entity({x=pos.x+math.random(0,10)/10-0.5, y=pos.y, z=pos.z+math.random(0,10)/10-0.5}, "tnt:smoke")
+		minetest.env:add_entity({x=pos.x+math.random(0,10)/10-0.5, y=pos.y, z=pos.z+math.random(0,10)/10-0.5}, modname..":smoke")
 	end
 	local nodename = minetest.env:get_node(pos).name
 	if nodename ~= "air" and nodename ~= "default:water_source" and nodename ~= "default:water_flowing"  then
@@ -126,3 +126,26 @@ function destroy(pos) -- Based on https://github.com/PilzAdam/TNT
 		nodeupdate(pos)
 	end
 end
+
+
+minetest.register_entity(modname..":smoke", { -- Based on https://github.com/PilzAdam/TNT
+	physical = true,
+	visual = "sprite",
+	textures = {"tnt_smoke.png"},
+	collisionbox = {0,0,0,0,0,0},
+	
+	timer = 0,
+	time = 5,
+	
+	on_activate = function(self, staticdata)
+		self.object:setacceleration({x=math.random(0,10)/10-0.5, y=5, z=math.random(0,10)/10-0.5})
+		self.time = math.random(1, 10)/10
+	end,
+	
+	on_step = function(self, dtime)
+		self.timer = self.timer+dtime
+		if self.timer > self.time then
+			self.object:remove()
+		end
+	end,
+})

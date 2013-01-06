@@ -23,3 +23,59 @@ minetest.register_craftitem(bombs.timer.item, {
 	inventory_image = "timerammo.png",
 	wield_image = "timerammo.png",	
 })
+
+
+------------------------------------------------------------------------
+minetest.register_craftitem(modname..":obsidian_rod", {
+	description = "Obsidian Rod",
+	inventory_image = "obsidian_rod.png",
+})
+------------------------------------------------------------------------
+minetest.register_craftitem(modname..":cobble_wheel", {
+	description = "Cobble Wheel",
+	inventory_image = "cobble_wheel.png",
+})
+
+minetest.register_craft({
+	output = modname..':cobble_wheel 3',
+	recipe = {
+		{'', 'default:cobble', ''},
+		{'default:cobble', '', 'default:cobble'},
+		{'', 'default:cobble', ''},
+	}
+})
+minetest.register_craft({
+	output = modname..':obsidian_rod',
+	recipe = {
+		{'lulzpack:obsidian_plate', '', 'lulzpack:obsidian_plate'},
+		{'lulzpack:obsidian_plate', '', 'lulzpack:obsidian_plate'},
+	}
+})
+
+minetest.register_craft({
+	output = modname..':explosiveammo 6',
+	recipe = {
+		{'', 'lulzpack:hotstone', ''},
+		{'lulzpack:hotstone', 'lulzpack:dintled_celisblock', 'lulzpack:hotstone'},
+		{'', 'lulzpack:hotstone', ''},
+	}
+})
+
+minetest.register_craft({
+	output = modname..':timerammo 3',
+	recipe = {
+		{'', 'lulzpack:obsidian_bucket_meltediron', ''},
+		{'lulzpack:redyz_ingot', 'lulzpack:dintled_celisblock', 'lulzpack:redyz_ingot'},
+		{'', 'lulzpack:obsidian_bucket_meltediron', ''},
+	}
+})
+
+
+minetest.register_craft({
+	output = modname..':uno',
+	recipe = {
+		{'', modname..':obsidian_rod', modname..':obsidian_rod'},
+		{'lulzpack:dintled_steelblock', 'lulzpack:dintled_steelblock','lulzpack:dintled_steelblock'},
+		{modname..':cobble_wheel', '',modname..':cobble_wheel'},
+	}
+})
