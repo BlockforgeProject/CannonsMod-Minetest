@@ -14,6 +14,8 @@ License: Gnu GPL v3
 
 Homepage: http://forkforge.net/proj.13
 
+Requirements: https://github.com/BlockforgeProject/BlockForge-2-/
+
 -----------------------------------------------
 
 Thanks to LorenzoVulcan (https://github.com/BlockforgeProject/) for Crafting Recipes
