@@ -1,7 +1,7 @@
 Recipes
 ====================
 
-### Cobble Wheel (cannon:cobble_wheel)
+### Cobble Wheel (cannons:cobble_wheel)
 
 ![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/cobble_wheel.png)
 ```
@@ -14,7 +14,7 @@ recipe = {
 	
 
 
-### Obsidian Rod (cannon:obsidian_rod)
+### Obsidian Rod (cannons:obsidian_rod)
 
 ![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/obsidian_rod.png)
 ```
@@ -26,7 +26,7 @@ recipe = {
 		
 
 
-### Explosive Ammunition (cannon:explosiveammo)
+### Explosive Ammunition (cannons:explosiveammo)
 
 ![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/explosiveammo.png)
 ```
@@ -39,7 +39,7 @@ recipe = {
 			
 
 
-### Explosive Ammunition with Timer (cannon:timerammo)
+### Explosive Ammunition with Timer (cannons:timerammo)
 
 ![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/timerammo.png)
 ```
@@ -52,7 +52,7 @@ recipe = {
 				
 
 
-### Simple Cannon (cannon:uno)
+### Simple Cannon (cannons:uno)
 
 ![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/cannonuno.png)
 ```
@@ -62,3 +62,7 @@ recipe = {
 		{modname..':cobble_wheel', '',modname..':cobble_wheel'},
 	}
 ```
+
+---------------------------------
+
+Lulzpack Recipes: https://github.com/BlockforgeProject/BlockForge-2-/wiki/_pages
