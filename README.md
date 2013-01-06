@@ -9,7 +9,8 @@ recipe = {
 		{'', 'default:cobble', ''},
 		{'default:cobble', '', 'default:cobble'},
 		{'', 'default:cobble', ''},
-	}```
+	}
+```
 	
 
 
@@ -20,7 +21,8 @@ recipe = {
 recipe = {
 		{'lulzpack:obsidian_plate', '', 'lulzpack:obsidian_plate'},
 		{'lulzpack:obsidian_plate', '', 'lulzpack:obsidian_plate'},
-	}```
+	}
+```
 		
 
 
@@ -32,7 +34,8 @@ recipe = {
 		{'', 'lulzpack:hotstone', ''},
 		{'lulzpack:hotstone', 'lulzpack:dintled_celisblock', 'lulzpack:hotstone'},
 		{'', 'lulzpack:hotstone', ''},
-	}```
+	}
+```
 			
 
 
@@ -44,7 +47,8 @@ recipe = {
 		{'', 'lulzpack:obsidian_bucket_meltediron', ''},
 		{'lulzpack:redyz_ingot', 'lulzpack:dintled_celisblock', 'lulzpack:redyz_ingot'},
 		{'', 'lulzpack:obsidian_bucket_meltediron', ''},
-	}```
+	}
+```
 				
 
 
@@ -56,4 +60,5 @@ recipe = {
 		{'', modname..':obsidian_rod', modname..':obsidian_rod'},
 		{'lulzpack:dintled_steelblock', 'lulzpack:dintled_steelblock','lulzpack:dintled_steelblock'},
 		{modname..':cobble_wheel', '',modname..':cobble_wheel'},
-	}```
+	}
+```
