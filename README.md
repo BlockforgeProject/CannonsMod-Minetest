@@ -3,7 +3,7 @@ Recipes
 
 ### Cobble Wheel (cannon:cobble_wheel)
 
-![Alt recipe](/craft/cobble_wheel.png)
+![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/cobble_wheel.png)
 
 recipe = {
 		{'', 'default:cobble', ''},
@@ -15,7 +15,7 @@ recipe = {
 
 ### Obsidian Rod (cannon:obsidian_rod)
 
-![Alt recipe](/craft/obsidian_rod.png)
+![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/obsidian_rod.png)
 
 recipe = {
 		{'lulzpack:obsidian_plate', '', 'lulzpack:obsidian_plate'},
@@ -26,7 +26,7 @@ recipe = {
 
 ### Explosive Ammunition (cannon:explosiveammo)
 
-![Alt recipe](/craft/explosiveammo.png)
+![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/explosiveammo.png)
 
 recipe = {
 		{'', 'lulzpack:hotstone', ''},
@@ -38,7 +38,7 @@ recipe = {
 
 ### Explosive Ammunition with Timer (cannon:timerammo)
 
-![Alt recipe](/craft/timerammo.png)
+![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/timerammo.png)
 
 recipe = {
 		{'', 'lulzpack:obsidian_bucket_meltediron', ''},
@@ -50,7 +50,7 @@ recipe = {
 
 ### Simple Cannon (cannon:uno)
 
-![Alt recipe](/craft/cannonuno.png)
+![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/cannonuno.png)
 
 recipe = {
 		{'', modname..':obsidian_rod', modname..':obsidian_rod'},
