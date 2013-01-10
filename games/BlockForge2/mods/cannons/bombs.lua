@@ -160,7 +160,7 @@ function explode(pos,dmwc1,func) -- Based on https://github.com/PilzAdam/TNT
 					local node =  minetest.env:get_node(pos)   
 						if math.abs(dx)<2 and math.abs(dy)<2 and math.abs(dz)<2 then
 					        func(pos)
-							if minetest.get_node_group(node.name, "cracky")==1 then	destroyed=destroyed+1 end
+							if minetest.get_node_group(node.name, "cracky")==1 or minetest.get_node_group(node.name, "obs")==1 then	destroyed=destroyed+1 end
 						else
 							if math.random(1,5) <= 4 then
                                 func(pos)
