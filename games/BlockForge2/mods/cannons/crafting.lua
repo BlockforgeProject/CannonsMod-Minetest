@@ -42,6 +42,12 @@ minetest.register_craftitem(bombs.timer.item, {
 	wield_image = "timerammo.png",	
 })
 
+minetest.register_craftitem(bombs.flame.item, {
+	description = "Flame Ammunition",
+	inventory_image = "flameammo.png",
+	wield_image = "flameammo.png",	
+})
+
 
 ------------------------------------------------------------------------
 minetest.register_craftitem(modname..":obsidian_rod", {
@@ -76,6 +82,15 @@ minetest.register_craft({
 		{'', 'lulzpack:hotstone', ''},
 		{'lulzpack:hotstone', 'lulzpack:dintled_celisblock', 'lulzpack:hotstone'},
 		{'', 'lulzpack:hotstone', ''},
+	}
+})
+
+minetest.register_craft({
+	output = modname..':flameammo 1',
+	recipe = {
+		{'', 'default:coal_lump', ''},
+		{'lulzpack:hotstone', 'lulzpack:dintled_celisblock', 'lulzpack:hotstone'},
+		{'', 'lulzpack:redyz_ingot', ''},
 	}
 })
 

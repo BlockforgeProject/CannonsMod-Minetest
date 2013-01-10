@@ -94,6 +94,19 @@ recipe = {
 		{'', 'lulzpack:obsidian_bucket_meltediron', ''},
 	}
 ```
+			
+
+
+### Flame Ammunition (cannons:flameammo)
+
+![ recipe](https://raw.github.com/RickyFF/CannonsMod-Minetest/master/craft/flameammo.png)
+```
+recipe = {
+		{'', 'default:coal_lump', ''},
+		{'lulzpack:hotstone', 'lulzpack:dintled_celisblock', 'lulzpack:hotstone'},
+		{'', 'lulzpack:redyz_ingot', ''},
+	}
+```
 				
 
 

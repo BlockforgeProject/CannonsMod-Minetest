@@ -1,2 +1,3 @@
 biggun1.ogg by bart @ http://opengameart.org/content/2-big-gun-shots
 DeathFlash.ogg by Blender Foundation @ http://opengameart.org/content/big-explosion 
+HowitzerArtilleryCannonFire.ogg @ http://soundjax.com/?q=cannon
